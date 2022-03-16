@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_pantry">
+
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.example.cmsc434_kitchen_kompanion.ui.list.ListFragment"
+        android:label="@string/list"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/navigation_recipes"
+        android:name="com.example.cmsc434_kitchen_kompanion.ui.recipes.RecipesFragment"
+        android:label="@string/recipes"
+        tools:layout="@layout/fragment_recipes" />
+
+    <fragment
+        android:id="@+id/navigation_pantry"
+        android:name="com.example.cmsc434_kitchen_kompanion.ui.pantry.PantryFragment"
+        android:label="@string/pantry"
+        tools:layout="@layout/fragment_pantry" />
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.example.cmsc434_kitchen_kompanion.ui.calendar.CalendarFragment"
+        android:label="@string/calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.cmsc434_kitchen_kompanion.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
