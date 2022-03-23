@@ -1,4 +1,4 @@
-# KitchenKompanion
+# Kitchen Kompanion
 Built a medium fidelity prototype allowing users to make:
  - Shopping list
  - Add and view items in the kitchen
